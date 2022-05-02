@@ -1,0 +1,165 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700)";
+body {
+    font: 13px/20px "Open Sans", Tahoma, Verdana, sans-serif;
+    color: #a7a599;
+    background: #31302b;
+  }
+
+  .logo {
+    background-position: center;
+    height: 60px;
+    width: 140px;
+    margin: 100px auto 30px auto;
+  }
+
+
+/* form style */
+.form {
+
+    background-position: center;
+    height: 60px;
+    width: 140px;
+    margin: 100px auto 30px auto;
+
+    position: relative;
+    margin: 100px auto;
+    width: 370px;
+    height: 445px;
+    background: white;
+    border-radius: 3px;
+  }
+  .form:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  .form h1 {
+    line-height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: #1abc9c;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .form .submit {
+    text-align: center;
+  }
+  .form p:first-child {
+    margin-top: 30px;
+  }
+  .form p .remember {
+    float: left;
+  }
+  .form p .remember label {
+    color: #a7a599;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .form p .forgot {
+    float: right;
+    margin-right: 50px;
+  }
+  .form p .forgot a {
+    color: #a7a599;
+    font-size: 12px;
+    text-decoration: none;
+    font-style: italic;
+    transition: all 0.3s ease-out;
+  }
+  .form p .forgot a:hover {
+    color: #f2672e;
+  }
+
+  /* end form style */
+
+  .form button[type=submit]:focus {
+    outline: none;
+  }
+
+  .form button[type=submit] {
+    margin-top: 15px;
+    width: 270px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 12px 0;
+    letter-spacing: 0;
+    box-shadow: inset 0px 0px 0px 0px #1abc9c;
+    color: #fff;
+    background-color: #16a085;
+    text-shadow: none;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-animation: shadowFadeOut 0.4s;
+    -moz-animation: shadowFadeOut 0.4s;
+  }
+  
+  .form button[type=submit]:hover,
+  button[type=submit]:focus {
+    color: #fff;
+    box-shadow: inset 0px 46px 0px 0px #1abc9c;
+    -webkit-animation: shadowFade 0.4s;
+    -moz-animation: shadowFade 0.4s;
+  }
+
+
+
+  
+
+  /* test */
+
+  .form input, input {
+    font-family: "Open Sans", Calibri, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px 10px 55px;
+    position: relative;
+    width: 200px;
+    height: 24px;
+    color: #676056;
+    border: none;
+    background: #f7f3eb;
+    color: #777;
+
+  }
+
+
+
+
+
+    /* === Form === */
+.form {
+    width: 100%;
+  }
+  .form .field {
+    position: relative;
+    margin: 0 50px;
+  }
+  .form .field i {
+    font-size: 18px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    color: #f7f3eb;
+    background: #676056;
+    text-align: center;
+    line-height: 44px;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+  }
