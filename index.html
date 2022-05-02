@@ -8,6 +8,8 @@
     <title>Solicite serviço</title>
   </head>
   <body>
+
+    <!-- here is the recipient email information -->
     <form method="POST" action="https://formsubmit.co/jeroscardoso@hotmail.com"
       enctype="multipart/form-data">
       <input
@@ -15,15 +17,21 @@
         name="_autoresponse"
         value="Obrigado por entrar em contato, responderemos o mais breve possível!"
       />
+      <!-- end here is the recipient email information -->
+
       <input type="hidden" name="_template" value="box" />
+
+      <!-- Form -->
       <input type="email" name="email" placeholder="Seu E-mail" required />
       <input type="nome" name="nome" placeholder="Seu nome" required />
       <input type="tel" name="telefone" placeholder="Seu telefone" />
       <textarea name="message" placeholder="descreva o pedido/dúvida" required ></textarea>
       <input type="file" name="attachment" accept="image/png, image/jpeg, .pdf, .rar, .zip, .7z, .7zip"/>
       <button type="submit">Enviar</button>
+      <!-- alert in shipping -->
       <input type="hidden" name="_next" value="https://jero-web.github.io/StudyProject/status/sucesso.html">
-     
+     <!-- end alert in shipping -->
     </form>
+    <!-- end form -->
   </body>
 </html>
