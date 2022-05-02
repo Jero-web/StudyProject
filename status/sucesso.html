@@ -1,10 +1,38 @@
 <html>
-<head>
-    <title>Enviado com Sucesso</title>
-</head>
-<body>
-    <h3>Obrigado, por entrar em contato reponderemos por e-mail o mais breve possível.</h3>
+  <head>
+    <title>Mensagem enviada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .alert {
+        padding: 20px;
+        background-color: green;
+        color: white;
+      }
 
-    <button onclick="location.href='http://127.0.0.1:5555/'">Voltar</button>
-</body>
+      .closebtn {
+        margin-left: 15px;
+        color: rgb(232, 225, 225);
+        font-weight: bold;
+        float: right;
+        font-size: 30px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .closebtn:hover {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert">
+      <span class="closebtn" onclick="location.href='https://jero-web.github.io/StudyProject/';"
+        >&times;</span
+      >
+      <strong>Obrigado</strong>, por entrar em contato reponderemos por e-mail o
+      mais breve possível.
+    </div>
+    <p>Clique no símbolo "x" para fechar a mensagem de alerta.</p>
+  </body>
 </html>
